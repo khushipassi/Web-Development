@@ -1,0 +1,240 @@
+@media all and (min-width: 900px) {
+  body {
+    margin: 0;
+  }
+
+  main {
+    margin-top: 60px;
+  }
+
+  aside {
+    display: block;
+  }
+
+  p,
+  ol,
+  h3,
+  ul {
+    margin: 10px, 20px, 10px, 20px;
+    font-size: 120%;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 2px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  h3 {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    border: groove #000000;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    height: 220px;
+  }
+
+  .left {
+    display: inline-block;
+    padding: 1%;
+    background-color: #6f3030;
+    width: 22%;
+    height: 1281px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .right {
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    padding-top: 20px;
+  }
+
+  .hello,
+  .henlo {
+    width: 45%;
+  }
+
+  .henlo {
+    float: left;
+    margin-left: 2%;
+  }
+
+  .hello {
+    float: right;
+    margin-right: 4%;
+  }
+
+  .hello h3,
+  .henlo h3 {
+    text-align: center;
+  }
+
+  .hello p,
+  .henlo p {
+    text-align: justify;
+  }
+
+  .henlo img,
+  .hello img {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 8px;
+    margin-left: 150px;
+    height: 70%;
+  }
+
+  .hello p {
+    width: 110%;
+  }
+
+  #ink {
+    width: 100%;
+    float: left;
+  }
+
+  #dp {
+    display: none;
+  }
+
+  h4 {
+    float: left;
+    width: 15%;
+    margin-left: 10.5%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  main {
+    background: #0a1172;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 2.5%;
+    height: 30%;
+    width: 95%;
+  }
+
+  .dec {
+    width: 24%;
+    height: 50%;
+    padding: 2%;
+    background: #ffffff;
+    color: #0a1172;
+    text-align: center;
+    border: solid black 3px;
+    font-size: 90%;
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+
+  .dec:hover {
+    color: #ffffff;
+    background-color: #0a1172;
+  }
+
+  p,
+  ol,
+  h3,
+  ul {
+    margin: 10%, 20%, 10%, 20%;
+    font-size: 90%;
+    text-align: justify;
+    margin-left: 1%;
+    line-height: 20px;
+  }
+
+  main {
+    background-color: #ffffff;
+  }
+
+  h4 {
+    float: left;
+    width: 100%;
+    margin-left: 3%;
+  }
+
+  img {
+    display: block;
+    width: 95%;
+    border: groove #000000;
+    margin-bottom: 7%;
+    margin-top: 15px;
+    height: 140px;
+  }
+
+  .left {
+    display: inline-block;
+    padding: 2.5%;
+    background-color: #6f3030;
+    width: 38%;
+    height: 200%;
+    vertical-align: top;
+  }
+
+  .right {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+    margin-left: 0.5%;
+    margin-top: 10px;
+  }
+
+  .hello,
+  .henlo {
+    width: 80%;
+    margin-left: 5%;
+  }
+
+  .henlo {
+    float: left;
+  }
+
+  .hello {
+    float: left;
+    margin-left: 5%;
+  }
+
+  .hello h3,
+  .henlo h3 {
+    margin-left: 3px;
+  }
+
+  .hello p,
+  .henlo p {
+    text-align: justify;
+  }
+
+  .henlo img,
+  .hello img {
+    display: inline-block;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 0.5px;
+    margin-top: 0.5px;
+  }
+
+  .hello p,
+  .henlo p {
+    width: 120%;
+  }
+
+  #ink {
+    width: 100%;
+    float: left;
+  }
+
+  #ink h3 {
+    margin-left: 10%;
+  }
+}

@@ -1,0 +1,32 @@
+.nav-item a:hover{
+    text-decoration: underline;
+}
+  
+.nav-item a:active{
+    background: #f5c11f;
+}
+
+.footer {
+    height: 50px;
+    padding: 70px 0px 60px;
+    background: #3D108C;
+}
+
+.footer h6 {
+    line-height: 50px;
+}
+
+.footer h1 {
+    font-weight: bold;
+}
+
+.jumbotron {
+    height: 130px;
+    padding-top: 5px !important;
+}
+
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-linkedin:hover {
+    color: #FF0000 !important;
+}

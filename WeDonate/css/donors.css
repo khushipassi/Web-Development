@@ -1,0 +1,137 @@
+.bartop {
+  margin-top: 50px;
+  height: 60px;
+  background: #3d108c;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+}
+
+.parent > div {
+  flex: 1;
+}
+
+.leftbar {
+  width: 42%;
+  background: #009999;
+  height: 650px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.rightbar {
+  width: 100%;
+  background: #ccccff;
+  height: 650px;
+  padding: 10px;
+  overflow: scroll;
+  padding-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 4px;
+}
+
+tr {
+  text-align: center;
+}
+
+th {
+  background: #ff9999;
+}
+
+fieldset {
+  background: #009999;
+  height: 600px;
+}
+
+input {
+  width: 43%;
+  height: 5%;
+  margin-bottom: 3%;
+  margin-right: 2%;
+  background-color: #ffffff;
+}
+
+select {
+  height: 5%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  width: 20%;
+}
+
+#mylist {
+  width: 10%;
+  margin-right: 4%;
+}
+
+#fullName {
+  width: 260px;
+  margin-right: 20px;
+}
+
+#city,
+#state {
+  width: 36%;
+}
+
+form {
+  height: 16%;
+  float: left;
+  width: 100%;
+}
+
+#donation,
+#address,
+#emailId {
+  width: 95%;
+}
+
+#donation {
+  height: 6%;
+}
+
+button,
+#button,
+#buttons {
+  background-color: #ff0000;
+  color: #ffffff;
+  float: right;
+  margin-left: 0%;
+  height: 6%;
+  width: 100%;
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+button:hover,
+#button:hover,
+#buttons:hover {
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #ff0000;
+}
+
+#buttons {
+  margin-left: 8%;
+  width: 25%;
+  padding: 0px;
+}
+
+#button {
+  padding: 1px;
+}

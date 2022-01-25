@@ -1,0 +1,253 @@
+.bgimg{
+	background-image: url('../images/work2.jpg'); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+
+.headerset{
+	padding-top: 250px;
+	box-sizing: border-box;
+}
+
+.headerset h2{
+	font-size: 42px;
+	font-weight: bold;
+	padding: 20px;  
+}
+
+.nav-item a:hover{
+  text-decoration: underline;
+}
+
+.nav-item a:active{
+  background: #f5c11f;
+}
+
+/*........ourservices.............*/
+
+.ourservices{
+	padding:100px 0px 60px;
+	height:690px;
+}
+
+.ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.imgsetting i {
+    border-radius: 50%;
+    height:100px;
+	width:100px;
+}
+
+.rowsetting{
+	margin: 80px 0px !important;
+}
+
+.fa-shopping-cart{
+	margin-top: 20px;
+	padding: 23px;
+}
+
+.fa-lightbulb-o{
+	margin-top: 20px;
+	padding: 27px;
+}
+
+.fa-user{
+	margin-top: 20px;
+	padding: 26px;
+}
+
+.rowsetting h2{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.rowsetting p{
+	padding: 10px;
+	color: #6c757d !important;
+}
+
+/*.....................portfolio..............*/
+
+.portfolio{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold; 
+}
+
+.card{
+	margin-top: 40px;
+}
+
+/*............ourteam...........*/
+
+.ourteam{
+	height:700px;
+	padding:100px 0px 60px;
+	width: 100%;
+}
+
+.ourteam h1{
+	font-size: 50px;
+	font-weight: bold; 
+}
+
+.ourteam img:hover{
+	border: solid #000000 5px;
+}
+
+.teamsetting{
+	margin-top: 70px !important;
+}
+
+
+/*.......makeform.........*/
+
+.makeform{
+	width: 100%;
+	height:715px;
+    padding:100px 0px 60px;
+}
+
+.makeform h1{
+	font-size: 50px;
+	font-weight: bold; 
+}
+
+.details{
+	margin-top: 50px!important;
+}
+
+#greenclr:hover{
+	background: #FFFFFF;
+	color: green;
+}
+
+#blueclr:hover{
+	background: #FFFFFF;
+	color: #24a0ed;
+}
+
+/*............footer..........*/
+
+.footer{
+	height: 50px;
+	padding:70px 0px 60px;
+}
+
+.footer h6{
+	line-height: 50px;
+}
+
+.footer h1{
+	font-weight: bold;
+}
+
+.jumbotron{
+	height:130px;
+	padding-top:5px !important;
+}
+
+.fa-instagram:hover,.fa-youtube:hover,.fa-linkedin:hover{
+	color: #FF0000!important;
+}
+
+
+/*......responsive........*/
+
+@media(min-width: 992px) and (max-width: 1999px){
+	.headerset h2{
+	   font-size: 35px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991.98px){
+	.headerset h2{
+	   font-size: 35px;
+    }
+    .ourservices{
+	   height:800px;
+    }
+    .portfolio{
+    	height:950px;
+    }
+		
+}
+
+@media(min-width: 576px) and (max-width: 767.98px){
+	.headerset h2{
+	   font-size: 27px;
+    }
+    .ourservices{
+	   height:1000px;
+    }
+    .portfolio{
+    	height:3600px;
+    }
+    .ourteam{
+    	 height:1400px;
+    }
+    .makeform{
+    	height: 800px;
+    }
+	
+}
+
+@media(min-width: 481px) and (max-width: 575.98px){
+	.headerset h2{
+	   font-size: 23px;
+    }
+    .ourservices{
+	   height:1350px;
+    }
+    .portfolio{
+    	height:3150px;
+    	padding: 60px 0px 50px;
+    }
+    .ourteam{
+    	 height:1450px;
+    }
+    .makeform{
+    	height: 800px;
+    	padding:80px 0px 60px;
+    }
+
+}
+
+@media(max-width: 480px){
+	.headerset h2{
+	   font-size: 20px;
+    }
+    .ourservices{
+	   height:1500px;
+    }
+    .portfolio{
+    	height:2900px;
+    }
+    .ourteam{
+    	height:1500px;
+    }
+    .makeform{
+    	height: 1000px;
+    	padding:135px 0px 60px;
+    }
+    .footer{
+    	height:300px;
+    }
+}
+
+
+
+
+
+
